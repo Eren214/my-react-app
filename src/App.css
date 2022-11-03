@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+.square{
+  border:1px solid #999;
+  width:50px;
+  height:50px;
+  text-align: center;
+  display: inline-block;
+  margin:5px;
+}
+.gray{
+  background-color:#ccc;
+}
+.navbar{
+  position: sticky;
+  /*background:rgb(56, 72, 146);*/
+}
+.navbar #logo{
+  padding-left: 10px;
+  height: 25px;
+}
+.navbar ul{
+  display: inline-flex;
+  float: right;
+  list-style: none;
+  margin:0 10px;
+}
+.navbar ul li{
+  padding: 0 10px;
+  color: black;
+  font-weight: 400;
+}
+.navbar ul li:hover{
+  cursor: pointer;
+  color: yellow;
+}
+.footer{
+  margin-top: 0px;
+  /*background:rgb(31, 47, 116);*/
+  color: black;
+  padding-bottom: 0px;
+}
+.footer h2{
+  font-size: 15px;
+  margin: 25px 0;
+}
+.footer p{
+  font-size: 12px;
+}
+.text-input-field {
+  max-width: 200px;
+}
+
+.number-input-field{
+  max-width: 100px;
+}
+
+.error-field{
+  border: 1px solid red !important;
+}
+
+.error_message {
+  color: red;
+  font-size: 9px;
+}
+
