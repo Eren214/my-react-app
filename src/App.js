@@ -6,12 +6,16 @@ import Footer from './Footer';
 import Square from './Square';
 import Board from './Board';
 import SampleForm from './SampleForm';
+import TicTacToe from './TicTacToe';
 import ScoreCalculator from './ScoreCalculator';
+import DynamicForm from './DynamicForm';
 
 function App() {
   return (
     <div>
    <Header/>
+   <DynamicForm/>
+   <TicTacToe/>
    <SampleForm/> 
    <ScoreCalculator/>  
    <Square className="grey" textContent="Hello" index="1"/>

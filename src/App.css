@@ -101,6 +101,9 @@
 }
 form h3{
   text-decoration: underline;
-  
+}
+.hasMove{
+  background-color: #282c34;
+  color: #ccc;
 }
 
